@@ -1,0 +1,33 @@
+a{text-decoration: none;color: #ffffff;}
+
+
+/*** HEADER SECTION****/
+.header-img{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url("header.jpg");
+    background-attachment: fixed;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+#menu li{padding:0 10px;}
+#menu li a{ margin-left:50px;}
+
+#menu  { margin-top: 25px; float: right;}
+header h2 span{color:black;}
+
+@media (max-width:572px){
+ .logo{
+     margin-left:220px;
+ }
+ #menu li a {margin:10px; }
+ 
+}
+@media (min-width:560px) and (max-width:767px){
+    #menu li a{ margin-left:0px;}
+}
+
+@media (max-width:500px){.logo{margin-left: 150px;}}
+@media (max-width:350px){.logo{margin-left: 100px;}}
+
+ 
